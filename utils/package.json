@@ -6,6 +6,12 @@
     "markdown-it": "~3.0.5",
     "metascript": "~1.0.0",
     "file": "*",
-    "archiver": "*"
-  }
+    "archiver": "*",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
