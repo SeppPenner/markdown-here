@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "markdown-it": "~3.0.5",
+    "markdown-it": "~10.0.0",
     "metascript": "~1.0.0",
     "file": "*",
     "archiver": "*",
